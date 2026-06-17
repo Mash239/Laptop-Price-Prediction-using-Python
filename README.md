@@ -75,8 +75,7 @@ This GitHub project is structured as a professional end-to-end machine learning 
 
 
 
-Pipeline Flow
-
+📌Pipeline Flow
 
 
 Model Workflow Diagram (Pipeline Flow)
@@ -113,9 +112,12 @@ Model Workflow Diagram (Pipeline Flow)
         │ Gradient Boosting  │
         └─────────┬──────────┘
                   ↓
+        ┌────────────────────┐
+        │ Prediction System  │
+        └────────────────────┘
 
 
-#Conclusion
+📌Conclusion
 
 
 After evaluating multiple regression and ensemble models, Tuned Gradient Boosting performed the best with a CV R² score of 0.6747. It provides the best balance between accuracy and generalization, making it the recommended final model.
