@@ -3,6 +3,8 @@ This project presents a complete  Data analysis with all steps including data cl
 Note: This is a summary of the project (for full report please see the attached report file)
 
 📌 Data Analysis Process
+
+
 Data preprocessing & cleaning
 Exploratory Data Analysis (EDA)
 Feature selection
@@ -12,26 +14,45 @@ Model evaluation
 Final deployment-ready pipeline
 
 📌 Best Model
+
+
 ✔ Gradient Boosting Regressor
 ✔ CV R² = 0.6747
 
+
 📌 Tech Stack
+
+
+
 Python
 Pandas, NumPy
 Scikit-learn
 XGBoost
 Matplotlib, Seaborn
 
+
+
 📌 How to Run
+
+
+
 pip install -r requirements.txt
 python pipeline/training_pipeline.py
 python pipeline/prediction_pipeline.py
 
+
 📌 Results Summary
+
+
+
 Best Model: Gradient Boosting
 Strong nonlinear relationship captured
 Improved performance over linear models
+
+
 📦 5. requirements.txt
+
+
 pandas
 numpy
 scikit-learn
@@ -40,7 +61,11 @@ seaborn
 xgboost
 joblib
 
+
+
 🚀 Final Summary
+
+
 This GitHub project is structured as a professional end-to-end machine learning system, including:
 ✔ EDA
 ✔ Feature Engineering
@@ -48,9 +73,15 @@ This GitHub project is structured as a professional end-to-end machine learning 
 ✔ Hyperparameter tuning
 ✔ Final pipeline deployment
 
+
+
 Pipeline Flow
 
+
+
 Model Workflow Diagram (Pipeline Flow)
+
+
         ┌────────────────────┐
         │   Raw Dataset      │
         └─────────┬──────────┘
@@ -82,9 +113,12 @@ Model Workflow Diagram (Pipeline Flow)
         │ Gradient Boosting  │
         └─────────┬──────────┘
                   ↓
-Conclusion
+
+
+#Conclusion
+
+
 After evaluating multiple regression and ensemble models, Tuned Gradient Boosting performed the best with a CV R² score of 0.6747. It provides the best balance between accuracy and generalization, making it the recommended final model.
         
-        ┌────────────────────┐
         │ Prediction System  │
         └────────────────────┘
