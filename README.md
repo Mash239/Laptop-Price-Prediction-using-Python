@@ -1,6 +1,9 @@
 # Laptop-Price-Prediction-using-Python
 This project presents a complete  Data analysis with all steps including data cleaning, EDA, machine learning pipeline for predicting laptop prices using selected hardware features: RAM_GB, CPU_core, CPU_frequency, Storage_GB_SSD, GPU. The workflow includes data pre_processing, EDA, feature selection, model development, and evaluation. 
+
+
 Note: This is a summary of the project (for full report please see the attached report file)
+
 
 📌 Data Analysis Process
 
@@ -121,6 +124,3 @@ Model Workflow Diagram (Pipeline Flow)
 
 
 After evaluating multiple regression and ensemble models, Tuned Gradient Boosting performed the best with a CV R² score of 0.6747. It provides the best balance between accuracy and generalization, making it the recommended final model.
-        
-        │ Prediction System  │
-        └────────────────────┘
